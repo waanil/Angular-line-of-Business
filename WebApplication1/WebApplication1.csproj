@@ -57,6 +57,15 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Angular Business App\.DS_Store" />
+    <Content Include="Angular Business App\app\.DS_Store" />
+    <Content Include="Angular Business App\css\.DS_Store" />
+    <Content Include="Angular Business App\fonts\.DS_Store" />
+    <Content Include="Angular Business App\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Angular Business App\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Angular Business App\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Angular Business App\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Angular Business App\js\.DS_Store" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -65,10 +74,42 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Angular Business App\app\app.js" />
+    <Content Include="Angular Business App\app\products\procductDetailController.js" />
+    <Content Include="Angular Business App\app\products\prodcutListController.js" />
+    <Content Include="Angular Business App\app\products\prodcutListView.html" />
+    <Content Include="Angular Business App\app\products\productDetailView.html" />
+    <Content Include="Angular Business App\app\products\productEditController.js" />
+    <Content Include="Angular Business App\app\products\productEditInfoView.html" />
+    <Content Include="Angular Business App\app\products\productEditPriceView.html" />
+    <Content Include="Angular Business App\app\products\productEditTagsView.html" />
+    <Content Include="Angular Business App\app\products\productEditView.html" />
+    <Content Include="Angular Business App\app\welcomeView.html" />
+    <Content Include="Angular Business App\common\services\common.services.js" />
+    <Content Include="Angular Business App\common\services\productResource.js" />
+    <Content Include="Angular Business App\common\services\productResourceMock.js" />
+    <Content Include="Angular Business App\css\app.css" />
+    <Content Include="Angular Business App\css\bootstrap.css" />
+    <Content Include="Angular Business App\css\toastr.css" />
+    <Content Include="Angular Business App\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Angular Business App\index.html" />
+    <Content Include="Angular Business App\js\angular-mocks.js" />
+    <Content Include="Angular Business App\js\angular-resource.js" />
+    <Content Include="Angular Business App\js\angular-ui-router.js" />
+    <Content Include="Angular Business App\js\angular.js" />
+    <Content Include="Angular Business App\js\bootstrap.js" />
+    <Content Include="Angular Business App\js\jquery-1.12.1.js" />
+    <Content Include="Angular Business App\js\toastr.js" />
+    <Content Include="Angular Business App\js\ui-bootstrap-tpls-0.11.0.js" />
+    <Content Include="Angular Business App\js\ui-utils.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Angular Business App\app\prices\" />
+    <Folder Include="Angular Business App\images\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -59,6 +59,7 @@
   <ItemGroup>
     <Content Include="Angular Business App\.DS_Store" />
     <Content Include="Angular Business App\app\.DS_Store" />
+    <Content Include="Angular Business App\common\services\commonservices .js" />
     <Content Include="Angular Business App\css\.DS_Store" />
     <Content Include="Angular Business App\fonts\.DS_Store" />
     <Content Include="Angular Business App\fonts\glyphicons-halflings-regular.eot" />
@@ -85,7 +86,7 @@
     <Content Include="Angular Business App\app\products\productEditTagsView.html" />
     <Content Include="Angular Business App\app\products\productEditView.html" />
     <Content Include="Angular Business App\app\welcomeView.html" />
-    <Content Include="Angular Business App\common\services\common.services.js" />
+    <Content Include="Angular Business App\common\services\common.services1.js" />
     <Content Include="Angular Business App\common\services\productResource.js" />
     <Content Include="Angular Business App\common\services\productResourceMock.js" />
     <Content Include="Angular Business App\css\app.css" />

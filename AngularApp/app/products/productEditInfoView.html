@@ -1,0 +1,66 @@
+﻿<form class="form-horizontal" name="productForm">
+    <fieldset>
+        <legend>Basic Product Information</legend>
+        <div class="form-group">
+            <label for="inputProductName" class="col-md-2 control-label">Product Name</label>
+            <div class="col-md-4">
+            <input class="form-control" id="inputProductName" type="text" placeholder="Product Name" ng-model="product.productName"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-md-2 control-label" for="inputProductCode">Product Code</label>
+            <div class="col-md-4">
+                <input class="form-control"
+                       id="inputProductCode"
+                       ui-mask="AAA-****"
+                       ng-model="product.productCode">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-md-2 control-label"
+                   for="inputAvailabilityDate">Availability</label>
+            <div class="col-md-4">
+                <div class="input-group">
+                    <input class="form-control"
+                           id="inputAvailabilityDate"
+                           type="text"
+                           datepicker-popup="MMM dd, yyyy "
+                           is-open="opened"
+                           ng-model="product.releaseDate" />
+                    <span class="input-group-btn">
+                        <button class="btn btn-default"
+                                ng-click="open($event)">
+                            <i class="glyphicon glyphicon-calendar" />
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div>
+            <label for="inputDescription" class="col-md-2 control-label">Description</label>
+            <div class="col-md-10">
+                <textarea class="form-control" id="inputDescription" placeholder="Description" ng-model="product.description"></textarea>
+            </div>
+
+        </div>
+        <div class="form-group">
+            <div class="col-md-4 col-md-offset-2">
+                <span>
+                    <button class="btn btn-primary"
+                            style="width:80px;margin-right:10px"
+                            ng-click="submit()">
+                        Save
+                    </button>
+                </span>
+                <span>
+                    <button class="btn btn-default"
+                            style="width:70px"
+                            ng-click="cancel()">
+                        Cancel
+                    </button>
+                </span>
+            </div>
+        </div>
+       
+    </fieldset>
+</form>

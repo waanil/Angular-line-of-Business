@@ -3,7 +3,7 @@
  */
 (function () {
     "use strict";
-  
+
 
     angular
         .module("productManagement")
@@ -11,9 +11,9 @@
         ["$scope","product","$state",
             ProductEditController]);
 
-   
+
     function ProductEditController($scope, product,$state) {
-       
+
         $scope.product = product;
         $scope.opened = false;
 
@@ -30,12 +30,16 @@
 
             $scope.opened = !$scope.opened;
         };
-        $scope.submit = function () {
-            console.log(product);
+        $scope.submit = function (isValid) {
+          alert(isValid)
+          if(isValid){
             $scope.product.$save(function (data) {
                 toastr.success("Save Successful");
             }
-            );
+          );}
+          else{
+            alert("correct Error")
+          }
         }
 
         $scope.cancel = function () {
@@ -56,6 +60,6 @@
         }
     }
 
-   
+
 
 }());

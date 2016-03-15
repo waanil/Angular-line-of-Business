@@ -103,6 +103,7 @@
     <Content Include="Angular Business App\js\toastr.js" />
     <Content Include="Angular Business App\js\ui-bootstrap-tpls-0.11.0.js" />
     <Content Include="Angular Business App\js\ui-utils.js" />
+    <Content Include="test.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
